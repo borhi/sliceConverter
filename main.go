@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func Converter(s [][]int) []int {
+func сonverter(s [][]int) []int {
 	var newSlice []int
 	var k, l int = 0, 0
 	col := len(s)
@@ -38,6 +38,6 @@ func Converter(s [][]int) []int {
 }
 
 func main() {
-	fmt.Println(Converter([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}))
-	fmt.Println(Converter([][]int{{1, 2, 3, 1}, {4, 5, 6, 4}, {7, 8, 9, 7}, {7, 8, 9, 7}}))
+	fmt.Println(сonverter([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}))
+	fmt.Println(сonverter([][]int{{1, 2, 3, 1}, {4, 5, 6, 4}, {7, 8, 9, 7}, {7, 8, 9, 7}}))
 }
